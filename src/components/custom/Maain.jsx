@@ -17,7 +17,7 @@ const Contact = () => <div className="content">Contact Page</div>;
 const Explore = () => <div className="content">Explore Page</div>;
 
 
-const Main = () => {
+const Maain = () => {
   return (
     <Router>
     <div className="flex flex-col-reverse md:flex-col-reverse lg:flex-row">
@@ -48,4 +48,4 @@ const NavIcon = ({ to, icon }) => (
         {icon}
     </Link>
 );
-export default Main
+export default Maain

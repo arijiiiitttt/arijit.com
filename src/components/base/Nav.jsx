@@ -19,14 +19,14 @@ const Nav = () => {
 
   const iconStyle = (iconName) =>
     `cursor-pointer my-4 text-2xl transition-colors duration-300 ${
-      activeIcon === iconName ? 'text-red-500 fill-red-300 stroke-red-600' : 'text-gray-600'
+      activeIcon === iconName ? 'text-blue-500 fill-blue-300 stroke-blue-600' : 'text-gray-600'
     }`;
 
   return (
     <>
 
     
-    <div className=' min-h-screen w-[14.8rem] pr-[2.4rem] flex-row md:flex-row lg:border-r-[1.5px] border-gray-300 flex lg:flex-col justify-center items-end'>
+    <div className=' min-h-screen w-[14.5rem] pr-[2.4rem] flex-row md:flex-row lg:border-r-[1.5px] border-gray-300 flex lg:flex-col justify-center items-end'>
         <Link href="/" passHref>
           <HiHome
             className={iconStyle('home')} 
